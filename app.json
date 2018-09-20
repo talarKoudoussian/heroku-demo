@@ -4,5 +4,9 @@
   "env": {},
   "formation": {},
   "addons": [],
-  "buildpacks": ["node"]
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
 }
